@@ -1,7 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.7)
     blankslate (2.1.2.4)
+    buftok (0.2.0)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     classifier-reborn (2.0.3)
@@ -11,13 +13,19 @@ GEM
       execjs
     coffee-script-source (1.9.1)
     colorator (0.1)
+    equalizer (0.0.9)
     execjs (2.3.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
     fast-stemmer (1.0.2)
     ffi (1.9.6)
     ffi (1.9.6-x64-mingw32)
     ffi (1.9.6-x86-mingw32)
     hitimes (1.2.2)
     hitimes (1.2.2-x86-mingw32)
+    http (0.6.3)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
     jekyll (2.5.3)
       classifier-reborn (~> 2.0)
       colorator (~> 0.1)
@@ -40,15 +48,22 @@ GEM
     jekyll-sass-converter (1.3.0)
       sass (~> 3.2)
     jekyll-sitemap (0.8.0)
+    jekyll-twitter-plugin (1.3.0)
+      twitter (~> 5.11)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
+    json (1.8.2)
     kramdown (1.6.0)
     liquid (2.6.2)
     listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
     mercenary (0.3.5)
+    multipart-post (2.0.0)
+    naught (1.0.0)
     octopress (3.0.0.rc.34)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
@@ -74,11 +89,24 @@ GEM
     redcarpet (3.2.2)
     safe_yaml (1.0.4)
     sass (3.4.13)
+    simple_oauth (0.3.1)
+    thread_safe (0.3.4)
     timers (4.0.1)
       hitimes
     titlecase (0.1.1)
     toml (0.1.2)
       parslet (~> 1.5.0)
+    twitter (5.14.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.6.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -89,4 +117,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-sitemap
+  jekyll-twitter-plugin
   octopress (~> 3.0.0.rc.12)

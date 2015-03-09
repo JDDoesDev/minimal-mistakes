@@ -1,9 +1,10 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "J.D. Flynn is a web developer in the Chicago area with a passion for writing code and learning about all things digital."
+tags: [james flynn, web development, chicago, php, seo]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature:
+  credit:
+  creditlink:
 ---
+

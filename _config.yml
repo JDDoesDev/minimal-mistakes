@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            J.D. Flynn and the Adventures in Web Development
 locale:           en_US
-url:              
+url:              https://www.jamesdflynn.com
 
 
 # Jekyll configuration
@@ -12,7 +12,7 @@ markdown:    kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass
-  style: compressed
+#  style: compressed
 gems:
   - jekyll-sitemap
 
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  name: J.D. Flynn
+  avatar: profile.jpg
+  bio: "Web developer by trade, geek by choice, getting stuff done in the Chicagoland area."
+  email: jd@jamesdflynn.com
+  disqus-shortname: jamesdflynn
+  twitter: JDDoesDev
   facebook: #username
   google:
     plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
+    analytics: UA-60490227-1
+    verify: byemwVOh8JIg3XatAJz2TwH16xSHbOLLKl47oQTTLZE
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: jflynnSMG
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: jflynn8
   instagram: #username
   lastfm: #username
   tumblr: #username
@@ -57,3 +57,10 @@ owner:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+gems: ['jekyll-twitter-plugin']
+
+twitter:
+  consumer_key: q97Y4aJw4o3rCTojW4jyorI4M
+  consumer_secret: xrAQTMz7laWx0p1RCQQaSMpQFeRMsyQygMhTfSdCkmpS0Zxqpt
+  access_token: 25409555-GqjDmzZ7SXYy8WqZHODdbZ4r2vCjOKy1kOStqbS2P
+  access_token_secret: lyT8EAACITjBN9YCe0vVTCsWHaHabNI7rZePwaZW81KFE
