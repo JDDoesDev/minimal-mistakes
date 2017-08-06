@@ -25,7 +25,9 @@ different and I did that for 10 years, but I always had a spot in my heart for p
 
 A few years after realizing that my past life wasn't for me, I returned to school, took a development class, and instantly knew
 from my first `<!DOCTYPE html>` tag that I wanted to get back into website development and learn everything I could possibly learn.
-This brought me to where I am now, a PHP developer for a publishing company in downtown Chicago.
+This brought me to where I am now, a remote Drupal developer working from my very own [coworking space](https://www.opendoorcoworking.com).
+
+I have contributed to Drupal 7 and 8, and helped organize [MidCamp 2016](http://www.midcamp.org) in Chicago.
 
 ## Other Stuff
 
